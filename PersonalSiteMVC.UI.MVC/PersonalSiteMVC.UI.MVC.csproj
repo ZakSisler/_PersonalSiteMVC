@@ -358,6 +358,9 @@
     <Content Include="Scripts\vendor\boxicons\fonts\boxicons.woff2" />
     <Content Include="Scripts\vendor\typed.js\typed.min.js.map" />
     <Content Include="Views\Shared\_OG-layout.cshtml" />
+    <Content Include="Views\Home\ContactAjax.cshtml" />
+    <Content Include="Views\Home\EmailConfirm.cshtml" />
+    <Content Include="Views\Home\EmailConfirmation.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

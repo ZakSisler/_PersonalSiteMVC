@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.ComponentModel.DataAnnotations; //Added for access for Data Annotations (Verify valid email etc)
+using System.ComponentModel.DataAnnotations;
 
 namespace PersonalSiteMVC.UI.MVC.Models
 {
-    public class ContactViewModel
+    public partial class ContactViewModel
     {
 
         //PROPERTIES
-        [Required(ErrorMessage = "*Name is required")] 
+        [Required(ErrorMessage = "*Name is required")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "*Valid Email is required")] 
+        [Required(ErrorMessage = "*Valid Email is required")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
