@@ -168,7 +168,7 @@
     <Content Include="Content\assets\vendor\glightbox\js\glightbox.min.js" />
     <Content Include="Content\assets\vendor\isotope-layout\isotope.pkgd.js" />
     <Content Include="Content\assets\vendor\isotope-layout\isotope.pkgd.min.js" />
-    <Content Include="Content\assets\vendor\php-email-form\php-email-form.php" />
+    <Content Include="_Archive-SPA\forms\php-email-form.php" />
     <Content Include="Content\assets\vendor\php-email-form\validate.js" />
     <Content Include="Content\assets\vendor\purecounter\purecounter.js" />
     <Content Include="Content\assets\vendor\swiper\swiper-bundle.min.css" />
