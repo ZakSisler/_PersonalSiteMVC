@@ -29,7 +29,7 @@
     'host' => 'mail.zaksisler.com',
     'username' => 'administrator@zaksisler.com',
     'password' => 'P@ssw0rd',
-    'port' => '8889'
+    'port' => '889'
   );
   
 
@@ -37,5 +37,6 @@
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
+  /*$contact->option('SMTPDebug', 4);*/
   echo $contact->send();
 ?>
