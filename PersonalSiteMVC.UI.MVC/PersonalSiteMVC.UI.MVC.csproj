@@ -325,7 +325,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Contact1.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="_Archive-SPA\assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
     <Content Include="_Archive-SPA\assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
@@ -436,6 +436,7 @@
     <Content Include="Views\Home\ContactAjax.cshtml" />
     <Content Include="Views\Home\EmailConfirm.cshtml" />
     <Content Include="Views\Home\EmailConfirmation.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
