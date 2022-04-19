@@ -129,6 +129,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\assets\CustomStyles.css" />
+    <Content Include="Content\assets\img\portfolio\apiReact.png" />
+    <Content Include="Content\assets\img\portfolio\stonewallCover.png" />
     <Content Include="Content\assets\img\testimonials\connorPFP.jpg" />
     <Content Include="Content\assets\img\testimonials\mattPFP.jpg" />
     <Content Include="Content\assets\vendor\aos\aos.css" />
